@@ -7,7 +7,7 @@ import axios from 'axios';
 import { TrendingUp } from 'lucide-react';
 import { Outlet } from 'react-router-dom';
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'https://expense-tracker-plateform-1.onrender.com/api';
 const CATEGORY_ICONS = {
   Food: <Utensils className="w-4 h-4" />,
   Housing: <Home className="w-4 h-4" />,

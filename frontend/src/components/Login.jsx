@@ -5,7 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 
-const Login = ({ onLogin, API_URL = 'http://localhost:3000' }) => {
+const Login = ({ onLogin, API_URL = 'https://expense-tracker-plateform-1.onrender.com' }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);

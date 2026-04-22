@@ -9,7 +9,7 @@ import Income from "./pages/Income";
 import Expense from "./pages/Expense";
 import Profile from "./pages/Profile";
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://expense-tracker-plateform-1.onrender.com';
 
 //toget transactions from localstorage
 const getTransactionsFromStorage = () => {

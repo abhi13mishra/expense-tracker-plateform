@@ -27,7 +27,7 @@ import { Cell, Legend, Pie, ResponsiveContainer, Tooltip, PieChart } from 'recha
 
 
 
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'https://expense-tracker-plateform-1.onrender.com/api';
 const getAuthHeader = () => {
   const token = localStorage.getItem("token") || localStorage.getItem("authToken");
   console.log("TOKEN:", token);
